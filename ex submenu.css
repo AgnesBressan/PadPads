@@ -1,0 +1,154 @@
+/* Feito por: Agnes Bressan de Almeida, Augusto Amaral Domingues, Isabela de Castro Navarro, Sofia Azevedo Rosa, Stephanie Camargo Antonelli e Yasmin Oliveira de Sousa. */
+
+#barra_adm
+{
+    width:1000px;
+    background-color:pink;
+    position:fixed;
+    display:none;/*esconde a barra */
+    top: 0;
+    margin:auto;
+    height:60px; 
+}
+#barra_adm li
+{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+#barra_adm, .sub-menu
+{
+    list-style: none;
+    background: #000;
+}
+
+#barra_adm a
+{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.clearfix: after 
+{
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+
+.sub-menu
+{
+    display: none;
+    position: absolute;
+    min-width: 150px; 
+    background: pink;
+}
+
+#barra_adm li:hover > .sub-menu 
+{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#barra_adm
+{
+    width:1000px;
+    background-color:pink;
+    position:fixed;
+    display:none;/*esconde a barra */
+    top: 0;
+    margin:auto;
+    height:60px;
+}
+
+.menu
+{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+}
+
+.menu li
+{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+}
+
+.menu li a
+{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+
+.menu li a:hover
+{
+    background:#333;
+    color:#fff;
+    text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul
+{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul
+{
+    display:block;
+}
+
+.menu li ul li
+{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+
