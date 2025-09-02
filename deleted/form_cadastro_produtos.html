@@ -1,0 +1,122 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+    
+ <head>
+ <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    
+ <link rel="stylesheet" type="text/css" href="style.css">
+    
+ <title>Cadastro</title>
+
+ </head>
+    
+ <body>
+  
+  <fieldset style="background-color: white">
+  <img src="logo.png" align="left" width="190" height="62">
+     
+  <br> 
+      
+  </fieldset>
+  
+   <center>
+    <div id=div>
+    
+  <script>
+
+     function hover(val1, val2) {
+         document.getElementById(val2).style.display = "block";
+         document.getElementById(val1).style.opacity = "10%";
+     }
+
+     function dhover(val1, val2) {
+         document.getElementById(val1).style.opacity = "100%";
+         document.getElementById(val2).style.display = "none";
+     }
+
+ </script>
+ 
+     
+     <br><br><br>
+
+ <center>
+    <br><br><br>
+           
+ <h1>Cadastro Produtos</h1>
+
+ </center>
+    
+ <br>
+     
+ <form>
+    
+ <center>
+    
+
+ <label>__________________________________________________________</label> 
+ <br><br><br><p style="width: 180px;margin-top: -5px;">
+ <font size="3"><font face="arial"><label>Id produto: </label></font></font>
+     <input type="serial" name="idproduto" readonly></p>
+ <label>__________________________________________________________</label><br><br>
+
+
+ <label>__________________________________________________________</label>
+ <br><br><br><p style="width: 180px;margin-top: -5px;"><font size="3"><font face="arial"><label>Preço:</label></font></font><input type="number" name="preco" required>
+ </p>
+ <label>__________________________________________________________</label><br><br>
+
+  
+ <label>__________________________________________________________</label>
+ <br><br><br><p style="width: 180px;margin-top: -5px;"><font size="3"><font face="arial"><label>Modelo:</label></font></font><input type="text" name="modelo" required>
+ </p>
+ <label>__________________________________________________________</label><br><br>
+    
+ </center>
+
+ <br><p style="width: 180px;margin-top: -5px;"><font size="3"><font face="arial">Escolher a categoria:</font></font></p><br>
+    
+ <font size="3"><font face="arial"><input type="radio" name="catg" value="liso"> Liso</font></font>&nbsp;
+ <font size="3"><font face="arial"><input type="radio" name="catg" value="estampado"> Estampado</font></font>&nbsp;
+ <font size="3"><font face="arial"><input type="radio" name="catg" value="séries/filmes"> Séries/Filmes</font></font> &nbsp;
+ <font size="3"><font face="arial"><input type="radio" name="catg" value="gamer"> Gamer</font></font> &nbsp; <br>
+ 
+
+    
+
+ <center>    
+    
+<br><br><font size="3"><font face="arial"><textarea name="coment" rows="6" cols="60"> Comentário: </textarea></font></font><br>
+    
+
+ <br><input type="submit" value="Enviar" class="botao"> &nbsp;
+ <input type="reset" value="Limpar" class="botao"> &nbsp;<br><br>
+     
+
+     
+ 
+    
+ </center>
+
+    
+ </form>
+    
+
+
+ <center><a class="topo" href="#ident">Voltar ao topo</a><br><br></center>
+
+    
+ <footer>
+        
+ <font size="2"><center>Trabalho Mousepad - Grupo 04 <br> CTI Unesp Bauru SP</center></font></footer>
+
+    
+
+ </div>
+    
+ </center>
+     
+ </body>
+    
+
+ </html>

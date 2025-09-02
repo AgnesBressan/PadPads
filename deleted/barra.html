@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script/jquery-3.5.1.js"></script>
+    <title>Barra fixa</title>
+    <style>
+        #titulo
+            {
+                background-color:pink;
+                position:fixed;
+                display:none;/*esconde a barra */
+                top: 0;
+                right: 0;
+                width:100%;
+            }
+    </style>
+    </head>
+
+<body>
+    <script type="text/javascript">
+        $(window).scroll(function() {
+        if($(window).scrollTop() >= 100)
+            $("#titulo").fadeIn("slow");
+        else 
+            $("#titulo").fadeOut("slow");
+        });
+    </script>
+    <div id="titulo"><center><h1>Titulo</h1></center></div>
+    <div style="height:2000px"></div>
+</body>
+</html>
